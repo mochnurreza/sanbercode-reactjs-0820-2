@@ -1,0 +1,18 @@
+.table{
+    margin-right:400px;
+    margin-top: 400px;
+    height: 300px;
+    width: 400px;
+    
+}
+thead{
+    background-color: #ced4da;
+}
+
+table{
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 400px;
+    background-color: #ff977a;
+}
+
