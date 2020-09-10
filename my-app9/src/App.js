@@ -5,7 +5,7 @@ import './App.css';
 // import Timer from './tugas-11/Timer'
 // import Clock from './tugas-11/Clock'
 // import List from './tugas-12/List'
-import DaftarBuah from './tugas-13/DaftarBuah'
+// import DaftarBuah from './tugas-13/DaftarBuah'
 import Fruits from './tugas-14/Fruits'
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
     <Timer startCount='100'/>
     <Clock date={new Date()}/> */}
     {/* <List /> */}
-    <DaftarBuah />
+    {/* <DaftarBuah /> */}
     <Fruits />
 
     </div>

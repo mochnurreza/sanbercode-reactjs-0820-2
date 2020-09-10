@@ -1,13 +1,14 @@
 import React, { useContext, useState } from 'react';
 import {FruitsContext} from './FruitsContext';
 import axios from 'axios';
-import FruitsList from './FruitList';
+import FruitsList from './FruitsList';
+import './FruitsForm.css';
 
 const FruitsForm = () => {
-    const [dataBuah, setDaftarBuah] = useState(null);
     const [inputName, setInputName] = useState('');
     const [inputPrice, setInputPrice] = useState('');
     const [inputWeight, setInputWeight] = useState('');
+    const [dataBuah, setDaftarBuah] = useContext(FruitsContext);
     const [selectedId, setSelectedId] = useState(0);
     const [statusForm, setStatusForm] = useState('create');
 

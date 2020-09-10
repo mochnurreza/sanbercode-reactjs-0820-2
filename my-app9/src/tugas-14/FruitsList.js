@@ -1,5 +1,6 @@
 import React, { useContext, useEffect } from 'react';
 import {FruitsContext} from './FruitsContext';
+import './FruitsList.css'
 import axios from 'axios';
 
 const FruitsList = (props) => {
@@ -57,4 +58,4 @@ const FruitsList = (props) => {
     )
 }
 
-export default FruitsList
+export default FruitsList;

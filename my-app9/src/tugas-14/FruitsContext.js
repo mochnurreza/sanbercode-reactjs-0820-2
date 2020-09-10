@@ -1,6 +1,6 @@
 import React, { useState, createContext } from 'react';
 
-export const FruitsProvider = createContext();
+export const FruitsContext = createContext();
 export const FruitsProvider = (props) => {
     const [dataBuah, setDaftarBuah] = useState(null);
     const [inputName, setInputName] = useState('');
