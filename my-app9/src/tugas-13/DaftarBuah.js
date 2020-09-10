@@ -3,13 +3,13 @@ import'./DaftarBuah.css'
 import axios from 'axios';
 
 const DaftarBuah = () => {
-    const [dataBuah, setDaftarBuah] = useState(null);
-    const [inputName, setInputName] = useState('');
-    const [inputPrice, setInputPrice] = useState('');
-    const [inputWeight, setInputWeight] = useState('');
-    const [selectedId, setSelectedId] = useState(0);
-    const [statusForm, setStatusForm] = useState('create');
-    const [isLoading, setIsLoading] = useState(true)
+      const [dataBuah, setDaftarBuah] = useState(null);
+      const [inputName, setInputName] = useState('');
+      const [inputPrice, setInputPrice] = useState('');
+      const [inputWeight, setInputWeight] = useState('');
+      const [selectedId, setSelectedId] = useState(0);
+      const [statusForm, setStatusForm] = useState('create');
+      const [isLoading, setIsLoading] = useState(true)
   
 
     useEffect(() => {

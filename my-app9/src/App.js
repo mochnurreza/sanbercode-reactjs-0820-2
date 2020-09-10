@@ -6,7 +6,7 @@ import './App.css';
 // import Clock from './tugas-11/Clock'
 // import List from './tugas-12/List'
 import DaftarBuah from './tugas-13/DaftarBuah'
-
+import Fruits from './tugas-14/Fruits'
 function App() {
   return (
     <div className="App">
@@ -16,6 +16,8 @@ function App() {
     <Clock date={new Date()}/> */}
     {/* <List /> */}
     <DaftarBuah />
+    <Fruits />
+
     </div>
   );
 }
