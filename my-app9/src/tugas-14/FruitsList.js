@@ -22,7 +22,7 @@ const FruitsList = (props) => {
             console.log(err.response)
           })
         }
-      }, [dataBuah])
+      }, [dataBuah, setDaftarBuah])
     return(
         <div className="content-wrapper">
       <h1>Data Buah</h1>

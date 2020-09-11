@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import { ItemBuah } from './ItemBuah';
 import './tugas10.css';
 
   let dataHargaBuah = [
@@ -25,11 +26,7 @@ class Tugas10 extends Component {
                  <tbody>
                  {dataHargaBuah.map(el =>{
                  return(
-                     <tr>
-                         <td>{el.nama}</td>
-                         <td>{el.harga}</td>
-                         <td>{el.berat/1000}kg</td>
-                     </tr>
+                     <ItemBuah buah={el} />
                  )     
                 })}
                 </tbody>
